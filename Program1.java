@@ -22,6 +22,11 @@ class Program1
 // String args[] : args[] is an array of all parameters that are used in the program or the values that are passed. String because it accepts all the values. 
 
 
+// Now let's check what System.out.println("") does
+// System : predefined class that gives access to the system.
+// out : he variable of type output stream connected to the console
+
+
 // saving : Write the code in notepad
 //          Press ctrl + shift + s
 //          Save as class_name.java
@@ -36,6 +41,10 @@ class Program1
 //          if there are no errors then type the following in the cmd:
 //          java class_name
 //          Your file runs if there are no errors.
+
+// Very Serious notes:
+// The name of the file should be as same as the name of the class in which main function is present.
+
 
 // OutPut:
 // hello world
