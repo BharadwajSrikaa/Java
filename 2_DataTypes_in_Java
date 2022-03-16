@@ -1,0 +1,78 @@
+There are majorly two types of of languages
+  1. Statically Types Languages. 
+  2. Dynamically Typed Languages.
+1. In Statically typed languages, The type of all the expressions and variables are already known by the time of compilation. 
+2. In Dynamically Typed Language, The types of the variables and parameters are changing over the time. 
+
+Java is statically typed language. 
+
+Java has two catigories of Data. They are
+  1. Primitive Data type. 
+  2. Non Primitive Data type. 
+  
+1. Primitive Data type : They are only single values and have no special data types. 
+  There are 8 types of Primitive Data types. They are : 
+    1. boolean
+    2. byte. 
+    3. short. 
+    4. int. 
+    5. long. 
+    6. float. 
+    7. double. 
+    8. char. 
+Note : In java char is of 2 byte. In c/C++, we use ASCII characters and to represent all ASCII characters
+        8-bits is enough. But in Java, we use the Unicode system. To represent unicode system 8-bit is not 
+        enough to represent all characters so java uses 2 bytes for characters. 
+
+2. Non-Primitive Data Types or Reference Data Types : These contain a memory address of variable values because 
+                                                      reference types won't store the variable value directly in memory. 
+   The examples of Non premitive data types are Strings, objects, arrays etc.
+   
+   Strings:
+            It is defined s array of characters. Unlike in C/C++, Java strings are not terminated with NULL character
+            Syntax of the String is:
+            
+            <String_type> <String_variable> = "<sequence_of_string>";
+            
+            
+Now let's discuss two important terms of Java. 
+
+1. Class:
+          It is a user defined prototype from which objects are created. In general class declaration can include these
+components, in order:
+      1. Modifiers : A class can be public or has default access. 
+      2. Class name : The name should begin with capital letter. 
+      3. Super Class[If any] : Name of the classes parent[if any], preceded by the keyword "extends". A class can only extends
+                                one parent class. 
+      4. Interfaces[If any] : A comma seperated list of interfaces impplemented by the class, if any, preceded by the keyword 
+                              implements. A class can implement more than one interface. 
+      5. Body : Class body is surrounded by Braces {}. 
+2. Object:
+          It is the basic unit of OOP and represent real life entities. An object consistes of :
+          
+          1. State : It is represented by attributes of an object. 
+          2. Behavior : It represents the methods of an object. 
+          3. Identity : It gives the unique name to the object. 
+          
+          
+          
+          
+          
+Difference between Primitive and Non Primitive Data Types:
+
+Primitive Data types:
+1. Predefined Datatype. 
+2. Stored in a stack. 
+3. When changes are made in the copied variable, that change doesn't reflect in the original ones. 
+4. They donot have NULL as default value. 
+5. Examples are byte, short, int, long, char, float, double, boolean. 
+
+
+Non Primitive Data types:
+1. User defined datatypes. 
+2. Reference variable stored in stack and actual value stored in heap. 
+3. When changes made in the copied variable, that change reflects in the actual variable. 
+4. They have Null as default value for reference variable. 
+5. Examples are array, string class, interface etc. 
+
+
